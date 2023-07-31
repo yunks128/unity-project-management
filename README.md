@@ -72,31 +72,9 @@ No questions yet. Propose a question to be added here by reaching out to our con
 
 ## Contributing
 
-[INSERT LINK TO CONTRIBUTING GUIDE OR FILL INLINE HERE]
-<!-- example link to CONTRIBUTING.md>
 Interested in contributing to our project? Please see our: [CONTRIBUTING.md](CONTRIBUTING.md)
--->
 
-<!-- example inline contributing guide>
-1. Create an GitHub issue ticket describing what changes you need (e.g. issue-1)
-2. [Fork](INSERT LINK TO YOUR REPO FORK PAGE HERE, e.g. https://github.com/my_org/my_repo/fork) this repo
-3. Make your modifications in your own fork
-4. Make a pull-request in this repo with the code in your fork and tag the repo owner / largest contributor as a reviewer
-
-**Working on your first pull request?** See guide: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
--->
-
-[INSERT LINK TO YOUR CODE_OF_CONDUCT.md OR SHARE TEXT HERE]
-<!-- example link to CODE_OF_CONDUCT.md>
 For guidance on how to interact with our team, please see our code of conduct located at: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
--->
-
-<!-- ☝️ Replace with a text describing how people may contribute to your project, or link to your contribution guide directly ☝️ -->
-
-[INSERT LINK TO YOUR GOVERNANCE.md OR SHARE TEXT HERE]
-<!-- example link to GOVERNANCE.md>
-For guidance on our governance approach, including decision-making process and our various roles, please see our governance model at: [GOVERNANCE.md](GOVERNANCE.md)
--->
 
 ## License
 
