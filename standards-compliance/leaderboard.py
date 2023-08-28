@@ -45,7 +45,7 @@ for index, repo in enumerate(org_repos):
     issue_templates = '✅' if 'bug_report.md' in issue_template_files and 'feature_request.md' in issue_template_files else '❌'
     code_of_conduct = '✅' if 'CODE_OF_CONDUCT.md' in files else '❌'
     contributing_guide = '✅' if 'CONTRIBUTING.md' in files else '❌'
-    license = '✅' if 'LICENSE' in files else '❌'
+    license = '✅' if 'LICENSE' or 'LICENSE.txt' in files else '❌'
     change_log = '✅' if 'CHANGELOG.md' in files else '❌'
 
     required_sections = ["Features", "Contents", "Quick Start", "Changelog", "Frequently Asked Questions (FAQ)", "Contributing", "License", "Support"]
