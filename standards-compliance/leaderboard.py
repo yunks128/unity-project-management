@@ -49,13 +49,15 @@ for index, repo in enumerate(org_repos):
     change_log = '✅' if 'CHANGELOG.md' in files else '❌'
 
     required_sections = ["Features", "Contents", "Quick Start", "Changelog", "Frequently Asked Questions (FAQ)", "Contributing", "License", "Support"]
+    minimum_required_sections = [ "Contributing", "License", "Support" ]
     readme_sections = re.findall(r'^#+\s*(.*)$', readme, re.MULTILINE)
     readme = '✅' if all(section in readme_sections for section in required_sections) else '❌'
+    readme = '☑️' if all(section in readme_sections for section in minimum_required_sections) else '❌'
 
     docs_link = '✅' if re.search(r'\[Docs\w*\]\(.*\)', readme, re.IGNORECASE) else '❌'
 
     row = f"| [{org_name}](https://github.com/{org_name}) | [{repo_name}]({repo_url}) | {issue_templates} | {pr_templates} | {code_of_conduct} | {contributing_guide} | {license} | {readme} | {change_log} | {docs_link} |"
-    rows.append((row.count('✅'), row))
+    rows.append((row.count('✅') + row.count('☑️'), row))
 
     logging.info(row) # print the markdown rendering of the row
 
