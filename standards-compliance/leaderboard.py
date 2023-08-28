@@ -12,7 +12,7 @@ org_url = f"https://api.github.com/orgs/{org_name}/repos"
 headers = {'Authorization': 'token TOKEN_GOES_HERE'}
 org_repos = requests.get(org_url, headers=headers).json()
 
-table_header = "| Project | Repository | [Issue Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/issue-templates/) | [PR Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/change-request-templates/) | [Code of Conduct](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/code-of-conduct/) | [Contributing Guide](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/contributing-guide/) | LICENSE | [README](https://nasa-ammos.github.io/slim/docs/guides/documentation/readme/) | [Change Log](https://nasa-ammos.github.io/slim/docs/guides/documentation/change-log/) | Dev/User Documentation |\n"
+table_header = "| Project | Repository | [Issue Templates](https://github.com/unity-sds/unity-repo-template/tree/main/.github/ISSUE_TEMPLATE) | [PR Templates](https://github.com/unity-sds/unity-repo-template/blob/main/.github/PULL_REQUEST_TEMPLATE.md) | [Code of Conduct](https://github.com/unity-sds/unity-repo-template/blob/main/CODE_OF_CONDUCT.md) | [Contributing Guide](https://github.com/unity-sds/unity-repo-template/blob/main/CONTRIBUTING.md) | [LICENSE](https://github.com/unity-sds/unity-repo-template/blob/main/LICENSE) | [README](https://github.com/unity-sds/unity-repo-template/blob/main/README.md) | [Change Log](https://github.com/unity-sds/unity-repo-template/blob/main/CHANGELOG.md) | [Link to Docs in README](https://github.com/unity-sds/unity-repo-template/blame/main/README.md#L29) |\n"
 table_header += "|---|---|---|---|---|---|---|---|---|---|\n"
 
 rows = []
@@ -51,12 +51,12 @@ for index, repo in enumerate(org_repos):
     required_sections = ["Features", "Contents", "Quick Start", "Changelog", "Frequently Asked Questions (FAQ)", "Contributing", "License", "Support"]
     minimum_required_sections = [ "Contributing", "License", "Support" ]
     readme_sections = re.findall(r'^#+\s*(.*)$', readme, re.MULTILINE)
-    readme = '✅' if all(section in readme_sections for section in required_sections) else '❌'
-    readme = '☑️' if all(section in readme_sections for section in minimum_required_sections) else '❌'
+    readme_check = '✅' if all(section in readme_sections for section in required_sections) else '❌'
+    readme_check = '☑️' if all(section in readme_sections for section in minimum_required_sections) else '❌'
 
-    docs_link = '✅' if re.search(r'\[Docs\w*\]\(.*\)', readme, re.IGNORECASE) else '❌'
+    docs_link = '✅' if re.search(r'\[.*?\b(?:Docs|Documentation)\b.*?\]\(.*\)', readme, re.IGNORECASE) else '❌'
 
-    row = f"| [{org_name}](https://github.com/{org_name}) | [{repo_name}]({repo_url}) | {issue_templates} | {pr_templates} | {code_of_conduct} | {contributing_guide} | {license} | {readme} | {change_log} | {docs_link} |"
+    row = f"| [{org_name}](https://github.com/{org_name}) | [{repo_name}]({repo_url}) | {issue_templates} | {pr_templates} | {code_of_conduct} | {contributing_guide} | {license} | {readme_check} | {change_log} | {docs_link} |"
     rows.append((row.count('✅') + row.count('☑️'), row))
 
     logging.info(row) # print the markdown rendering of the row

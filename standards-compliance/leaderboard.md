@@ -1,26 +1,26 @@
-| Project | Repository | [Issue Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/issue-templates/) | [PR Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/change-request-templates/) | [Code of Conduct](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/code-of-conduct/) | [Contributing Guide](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/contributing-guide/) | LICENSE | [README](https://nasa-ammos.github.io/slim/docs/guides/documentation/readme/) | [Change Log](https://nasa-ammos.github.io/slim/docs/guides/documentation/change-log/) | Dev/User Documentation |
+| Project | Repository | [Issue Templates](https://github.com/unity-sds/unity-repo-template/tree/main/.github/ISSUE_TEMPLATE) | [PR Templates](https://github.com/unity-sds/unity-repo-template/blob/main/.github/PULL_REQUEST_TEMPLATE.md) | [Code of Conduct](https://github.com/unity-sds/unity-repo-template/blob/main/CODE_OF_CONDUCT.md) | [Contributing Guide](https://github.com/unity-sds/unity-repo-template/blob/main/CONTRIBUTING.md) | [LICENSE](https://github.com/unity-sds/unity-repo-template/blob/main/LICENSE) | [README](https://github.com/unity-sds/unity-repo-template/blob/main/README.md) | [Change Log](https://github.com/unity-sds/unity-repo-template/blob/main/CHANGELOG.md) | [Link to Docs in README](https://github.com/unity-sds/unity-repo-template/blame/main/README.md#L29) |
 |---|---|---|---|---|---|---|---|---|---|
+| [unity-sds](https://github.com/unity-sds) | [unity-data-services](https://github.com/unity-sds/unity-data-services) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
+| [unity-sds](https://github.com/unity-sds) | [unity-analytics](https://github.com/unity-sds/unity-analytics) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-sps-prototype](https://github.com/unity-sds/unity-sps-prototype) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-data-services](https://github.com/unity-sds/unity-data-services) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-architecture](https://github.com/unity-sds/unity-architecture) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-analytics](https://github.com/unity-sds/unity-analytics) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-dockstore-app-test](https://github.com/unity-sds/unity-ads-dockstore-app-test) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-sps-workflows](https://github.com/unity-sds/unity-sps-workflows) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs](https://github.com/unity-sds/unity-cs) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| [unity-sds](https://github.com/unity-sds) | [unity-cs-manager](https://github.com/unity-sds/unity-cs-manager) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-tutorial](https://github.com/unity-sds/sounder-sips-tutorial) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [ades_wpst](https://github.com/unity-sds/ades_wpst) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-cs-manager](https://github.com/unity-sds/unity-cs-manager) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [unity-sds](https://github.com/unity-sds) | [unity-project-management](https://github.com/unity-sds/unity-project-management) | ❌ | ❌ | ✅ | ✅ | ✅ | ☑️ | ❌ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-infra](https://github.com/unity-sds/unity-cs-infra) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-analytics-bcdp](https://github.com/unity-sds/unity-analytics-bcdp) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-py](https://github.com/unity-sds/unity-py) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-project-management](https://github.com/unity-sds/unity-project-management) | ❌ | ❌ | ✅ | ✅ | ✅ | ☑️ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-helm-repository](https://github.com/unity-sds/unity-helm-repository) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-docs](https://github.com/unity-sds/unity-docs) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-sps-demo](https://github.com/unity-sds/unity-cs-sps-demo) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-analytics-sdap](https://github.com/unity-sds/unity-analytics-sdap) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-system-test](https://github.com/unity-sds/unity-system-test) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| [unity-sds](https://github.com/unity-sds) | [unity-ads-deployment](https://github.com/unity-sds/unity-ads-deployment) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-deployment-catalog](https://github.com/unity-sds/unity-cs-deployment-catalog) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-ads-deployment](https://github.com/unity-sds/unity-ads-deployment) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [hysds_ui_with_auth](https://github.com/unity-sds/hysds_ui_with_auth) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-sps-register_job](https://github.com/unity-sds/unity-sps-register_job) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
