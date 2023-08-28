@@ -1,9 +1,9 @@
 | Project | Repository | [Issue Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/issue-templates/) | [PR Templates](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/change-request-templates/) | [Code of Conduct](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/code-of-conduct/) | [Contributing Guide](https://nasa-ammos.github.io/slim/docs/guides/governance/contributions/contributing-guide/) | LICENSE | [README](https://nasa-ammos.github.io/slim/docs/guides/documentation/readme/) | [Change Log](https://nasa-ammos.github.io/slim/docs/guides/documentation/change-log/) | Dev/User Documentation |
 |---|---|---|---|---|---|---|---|---|---|
+| [unity-sds](https://github.com/unity-sds) | [unity-sps-prototype](https://github.com/unity-sds/unity-sps-prototype) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-data-services](https://github.com/unity-sds/unity-data-services) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-architecture](https://github.com/unity-sds/unity-architecture) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-sps-workflows](https://github.com/unity-sds/unity-sps-workflows) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-sps-prototype](https://github.com/unity-sds/unity-sps-prototype) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs](https://github.com/unity-sds/unity-cs) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-analytics](https://github.com/unity-sds/unity-analytics) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-dockstore-app-test](https://github.com/unity-sds/unity-ads-dockstore-app-test) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
