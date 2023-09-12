@@ -1,3 +1,10 @@
+## Table of Contents
+- [Leaderboard Table](#leaderboard-table) - a ranked listing of Unity repositories in order of how many best practice / compliance checks have been met.
+- [Repository Check Explanation](#repository-check-explanation) - detailed explanations for the logic used to generate an ✅,  ☑️, or ❌ for each check.
+
+
+## Leaderboard Table
+
 | Project | Repository | [Issue Templates](https://github.com/unity-sds/unity-repo-template/tree/main/.github/ISSUE_TEMPLATE) | [PR Templates](https://github.com/unity-sds/unity-repo-template/blob/main/.github/PULL_REQUEST_TEMPLATE.md) | [Code of Conduct](https://github.com/unity-sds/unity-repo-template/blob/main/CODE_OF_CONDUCT.md) | [Contributing Guide](https://github.com/unity-sds/unity-repo-template/blob/main/CONTRIBUTING.md) | [LICENSE](https://github.com/unity-sds/unity-repo-template/blob/main/LICENSE) | [README](https://github.com/unity-sds/unity-repo-template/blob/main/README.md) | [Change Log](https://github.com/unity-sds/unity-repo-template/blob/main/CHANGELOG.md) | [Link to Docs in README](https://github.com/unity-sds/unity-repo-template/blame/main/README.md#L29) |
 |---|---|---|---|---|---|---|---|---|---|
 | [unity-sds](https://github.com/unity-sds) | [unity-sps-workflows](https://github.com/unity-sds/unity-sps-workflows) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
@@ -31,7 +38,8 @@
 | [unity-sds](https://github.com/unity-sds) | [hysds_ui_with_auth](https://github.com/unity-sds/hysds_ui_with_auth) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
-## Repository Checks
+## Repository Check Explanation 
+
 ### 1. Issue Templates:
 - The repository must have the following issue templates:
   - `bug_report.md`: Template for bug reports.
