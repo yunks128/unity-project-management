@@ -14,13 +14,13 @@
 | [unity-sds](https://github.com/unity-sds) | [unity-cs](https://github.com/unity-sds/unity-cs) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-manager](https://github.com/unity-sds/unity-cs-manager) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-infra](https://github.com/unity-sds/unity-cs-infra) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
+| [unity-sds](https://github.com/unity-sds) | [unity-architecture](https://github.com/unity-sds/unity-architecture) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-analytics](https://github.com/unity-sds/unity-analytics) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-analytics-bcdp](https://github.com/unity-sds/unity-analytics-bcdp) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-deployment](https://github.com/unity-sds/unity-ads-deployment) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
+| [unity-sds](https://github.com/unity-sds) | [sounder-sips-tutorial](https://github.com/unity-sds/sounder-sips-tutorial) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [ades_wpst](https://github.com/unity-sds/ades_wpst) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
-| [unity-sds](https://github.com/unity-sds) | [unity-architecture](https://github.com/unity-sds/unity-architecture) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-dockstore-app-test](https://github.com/unity-sds/unity-ads-dockstore-app-test) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [sounder-sips-tutorial](https://github.com/unity-sds/sounder-sips-tutorial) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-py](https://github.com/unity-sds/unity-py) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-helm-repository](https://github.com/unity-sds/unity-helm-repository) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-docs](https://github.com/unity-sds/unity-docs) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
