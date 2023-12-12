@@ -36,7 +36,7 @@
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-test-data](https://github.com/unity-sds/sounder-sips-test-data) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-application](https://github.com/unity-sds/sounder-sips-application) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [hysds_ui_with_auth](https://github.com/unity-sds/hysds_ui_with_auth) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ || [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 ## Repository Check Explanation 
 
