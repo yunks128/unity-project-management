@@ -20,8 +20,8 @@
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-deployment](https://github.com/unity-sds/unity-ads-deployment) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-tutorial](https://github.com/unity-sds/sounder-sips-tutorial) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
 | [unity-sds](https://github.com/unity-sds) | [ades_wpst](https://github.com/unity-sds/ades_wpst) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ✅ |
+| [unity-sds](https://github.com/unity-sds) | [unity-py](https://github.com/unity-sds/unity-py) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-ads-dockstore-app-test](https://github.com/unity-sds/unity-ads-dockstore-app-test) | ✅ | ✅ | ✅ | ✅ | ✅ | ☑️ | ✅ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [unity-py](https://github.com/unity-sds/unity-py) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-helm-repository](https://github.com/unity-sds/unity-helm-repository) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-docs](https://github.com/unity-sds/unity-docs) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [unity-cs-sps-demo](https://github.com/unity-sds/unity-cs-sps-demo) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -36,7 +36,7 @@
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-test-data](https://github.com/unity-sds/sounder-sips-test-data) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [sounder-sips-application](https://github.com/unity-sds/sounder-sips-application) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [unity-sds](https://github.com/unity-sds) | [hysds_ui_with_auth](https://github.com/unity-sds/hysds_ui_with_auth) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ || [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [unity-sds](https://github.com/unity-sds) | [.github](https://github.com/unity-sds/.github) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 ## Repository Check Explanation 
 
