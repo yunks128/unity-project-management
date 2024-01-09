@@ -29,12 +29,15 @@ This repository serves to create a leaderboard table for the Unity project, repr
   
 ## Contents
 
-* [Quick Start](#quick-start)
-* [Changelog](#changelog)
-* [FAQ](#frequently-asked-questions-faq)
-* [Contributing Guide](#contributing)
-* [License](#license)
-* [Support](#support)
+- [Features](#features)
+- [Contents](#contents)
+- [Quick Start](#quick-start)
+  - [Run Instructions](#run-instructions)
+- [Changelog](#changelog)
+- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
 ## Quick Start
 
@@ -47,7 +50,7 @@ Requirements:
 * `requests` module
 
 Setup:
-- Generate a GitHub personal access token and replace the string `TOKEN_GOES_HERE` with the value of your token
+- Generate a GitHub personal access token and replace the string `TOKEN_GOES_HERE` with the value of your token. NOTE: make sure the "repo" group permission is enabled for your token within GitHub.com's personal access token setup.
 
 To generate a fresh leaderboard markdown table (printed to `stdout`), run the following command:
 

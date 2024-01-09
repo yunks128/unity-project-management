@@ -21,6 +21,10 @@ for index, repo in enumerate(org_repos):
     repo_name = repo['name']
     repo_url = repo['html_url']
 
+    if (repo['archived'] or repo['disabled']): # ignore archived and disabled repositories
+        logging.warning(f"Ignoring archived or disabled repository [{ repo_name }]({ repo_url })")
+        continue
+
     issue_template_url = f"https://api.github.com/repos/{org_name}/{repo_name}/contents/.github/ISSUE_TEMPLATE"
     pr_template_url = f"https://api.github.com/repos/{org_name}/{repo_name}/contents/.github/PULL_REQUEST_TEMPLATE.md"
     contents_url = f"https://api.github.com/repos/{org_name}/{repo_name}/contents"
