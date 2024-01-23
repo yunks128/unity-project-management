@@ -2,7 +2,7 @@
 name: New Risk
 about: Create a risk to track
 title: ''
-labels: 'risk'
+labels: 'Risk'
 assignees: ''
 
 ---
