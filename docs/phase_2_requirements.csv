@@ -1,0 +1,76 @@
+Requirements Prototyped,Requirement Text,System Test Component,Feature
+MDPS_2_REQ-87,The transformation and analysis system shall provide timeseries calculations on transformation requests,analysis,time_series.feature
+MDPS_2_REQ-163,The APGS shall provide a mechanism to validate APGS inputs prior to build,apgs,validate_inputs.feature
+MDPS_2_REQ-164,The APGS shall generate application packages upon user request.,apgs,packaging.feature
+MDPS_2_REQ-165,The APGS shall provide status of application generation processes,apgs,status.feature
+MDPS_2_REQ-80,The APGS shall store application package artifacts required for execution,apgs,store_artifacts.feature
+MDPS_2_REQ-81,The APGS shall publish application packages to the application catalog,apgs,publish.feature
+MDPS_2_REQ-67,The application catalog shall allow access to application packages from the centralized catalog,application_catalog,application_access.feature
+MDPS_2_REQ-70,The application catalog shall provide the capability to publish application packages conforming to the published OGC Best Practice for Earth Observation Application Package,application_catalog,OGC_validations.feature
+MDPS_2_REQ-41,The archive system shall provide a common mechanism for delivering data to DAACs,archive_system,daac_interface.feature
+MDPS_2_REQ-43,The archive system shall monitor the archive process for success and errors,archive_system,monitoring.feature
+MDPS_2_REQ-44,The archive system shall provide reporting on product archive processes,archive_system,reporting.feature
+MDPS_2_REQ-129,The MDPS shall monitor and report on service availability,availability,managed_monitoring.feature
+MDPS_2_REQ-131,The MDPS shared system shall have a published Service Level Agreement,availability,multitenant_availability_sla.feature
+MDPS_2_REQ-336,MDPS managed services shall be capable of restoring functionality after a catastrophic failure,availability,managed_restoration.feature
+MDPS_2_REQ-108,The cost modeling system shall provide cost models to tenant projects to estimate and budget project costs,cost_model,estimate.feature
+MDPS_2_REQ-103,The cost reporting system shall track and report system costs by one or more venues,cost_reporting,venue.feature
+MDPS_2_REQ-104,The cost reporting system shall track and report system costs based on functional components,cost_reporting,component.feature
+MDPS_2_REQ-161,The cost reporting system shall be generating and capable delivering reports at a specified interval,cost_reporting,reporting.feature
+MDPS_2_REQ-185,The cost reporting system can alert users when cost thresholds are exceeded,cost_reporting,alert.feature
+MDPS_2_REQ-29,The MDPS shall provide a shared data catalog for cataloging and search of MDPS data products based on product metadata. (Data Catalog),data_catalog,managed_service.feature
+MDPS_2_REQ-32,The data catalog shall allow notifications of newly cataloged data products,data_catalog,notifications.feature
+MDPS_2_REQ-34,The  data catalog shall allow search for data products on spatial and temporal metadata.,data_catalog,spatiotemporal_search.feature
+MDPS_2_REQ-36,The  data catalog  shall catalog products with required metadata as specified in <DATA-CATALOG-TBD>,data_catalog,ingest_with_required_metadata.feature
+MDPS_2_REQ-59,The IDE shall provide development environments access to MDPS data,ide,data_access.feature
+MDPS_2_REQ-63,The IDE shall allow sharing of code and data between IDE users,ide,data_sharing.feature
+MDPS_2_REQ-76,IDE customization shall include the inclusion of project defined libraries and resources to IDEs,ide,libraries.feature
+MDPS_2_REQ-110,MDPS managed services shall provide a common deployment mechanism,managed_services,common_deployment.feature
+MDPS_2_REQ-111,MDPS managed services shall provide the means to continuously integrate and deploy MDPS software,managed_services,ci.feature
+MDPS_2_REQ-112,"The MDPS shall provide a mechanism for storing, updating, and retrieving sensitive software configuration",managed_services,configuration.feature
+MDPS_2_REQ-114,MDPS managed services shall provide a common upgrade mechanism,managed_services,common_upgrade.feature
+MDPS_2_REQ-115,MDPS managed services shall provide a common rollback mechanism,managed_services,common_rollback.feature
+MDPS_2_REQ-116,MMDPS managed services shall provide a common destroy mechanism,managed_services,common_destroy.feature
+MDPS_2_REQ-117,"MDPS managed services shall have a user interface for deployment, monitoring, upgrading, and destruction",managed_services,mgmt_ui.feature
+MDPS_2_REQ-118,MDPS managed services will support scheduling changes in project defined maintenance windows,managed_services,mgmt_scheduling.feature
+MDPS_2_REQ-158,MDPS managed services shall allow resource customization,managed_services,resource_customization.feature
+MDPS_2_REQ-159,MDPS managed services shall report health metrics,managed_services,managed_health.feature
+MDPS_2_REQ-171,The MDPS shall have a centralized mechanism for requesting managed service support,managed_services,support.feature
+MDPS_2_REQ-172,MDPS managed services shall notify users of available updates,managed_services,mgmt_update_availability.feature
+MDPS_2_REQ-173,MDPS managed services shall notify users of pending and in-progress deployments,managed_services,mgmt_notify_deployments.feature
+MDPS_2_REQ-181,MDPS managed service deployment can be monitored for status and deployment issues.,managed_services,mgmt_deployment_status.feature
+MDPS_2_REQ-182,MDPS managed services shall be automatically validated upon deployment or rollback,managed_services,managed_deployment_validation.feature
+MDPS_2_REQ-196,MDPS managed services shall be capable of alerting users based on health metrics,managed_services,mgmt_health_alerts.feature
+MDPS_2_REQ-208,The MDPS  shall generate a manifest of deployment services,managed_services,mgmt_manifest.feature
+MDPS_2_REQ-166,The mission store shall be capable of notifying consumers of new data.,mission_store,notification.feature
+MDPS_2_REQ-55,The mission store shall allow whole file download of data products,mission_store,whole_file_download.feature
+MDPS_2_REQ-95,Project isolation shall include default user groups for A&A across all project venues,project_isolation,auth.feature
+MDPS_2_REQ-101,Project Venues shall allow for the deployment of managed services,project_venues,managed.feature
+MDPS_2_REQ-160,Project Venue resources shall be requested through a centralized endpoint (Web Gateway),project_venues,web_gateway.feature
+MDPS_2_REQ-146,The provenance system shall maintain persistent identifiers for algorithms used in data production,provenance,algorithm_persistent_identifiers.feature
+MDPS_2_REQ-147,The provenance system shall maintain persistent identifiers for workflows  used in data production,provenance,workflow_persistent_identifiers.feature
+MDPS_2_REQ-153,"The provenance systems shall allow users to search by identifier, name, and relationship",provenance,search_provenance.feature
+MDPS_2_REQ-10,"The science processing platform shall provision, manage, and release resources required for workflow processing",sps,resources.feature
+MDPS_2_REQ-11,The science processing platform shall provide workflow and application package execution metrics,sps,metrics.feature
+MDPS_2_REQ-12,The science processing platform shall provide workflow error and status messages to end users,sps,information_propagation.feature
+MDPS_2_REQ-162,The science processing platform shall provide the capability to prioritize workflow executions.,sps,priority.feature
+MDPS_2_REQ-167,The science processing platform shall provide the capability to execute workflows based on data availability,sps,availability.feature
+MDPS_2_REQ-174,The science processing platform shall provide aggregate workflow execution metrics,sps,aggregate_metrics.feature
+MDPS_2_REQ-176,The science processing platform shall provide detailed logs for workflow executions,sps,detailed_logs.feature
+MDPS_2_REQ-177,The science processing platform shall be capable of listing workflow executions,sps,execution_listings.feature
+MDPS_2_REQ-178,The science processing platform shall be capable of filtering workflow execution metrics by workflow metadata,sps,execution_listing_filter.feature
+MDPS_2_REQ-179,The science processing platform shall be capable of notifying users of workflow execution errors,sps,error_notification.feature
+MDPS_2_REQ-180,The science processing platform shall be capable of listing recent workflow execution notifications,sps,error_notification_listing.feature
+MDPS_2_REQ-2,The science processing platform shall provide a Web Processing Service Transactional(WPS-T) interface for workflow management,sps,wpst.feature
+MDPS_2_REQ-4,The science processing platform shall allow execution of workflows conforming to the Common Workflow Language (CWL) specification,sps,cwl.feature
+MDPS_2_REQ-6,The science processing platform shall provide a user interface for workflow monitoring,sps,ui.feature
+MDPS_2_REQ-7,The science processing platform shall provide capabilities to recover from workflow failures,sps,recovery.feature
+MDPS_2_REQ-137,The MDPS shall require all users to login.,user_management,login.feature
+MDPS_2_REQ-139,The user management system shall provide a common authorization mechanism,user_management,authz.feature
+MDPS_2_REQ-140,The user management system shall provide the capability to add and remove users from authorization roles,user_management,add_remove_user_from_roles.feature
+MDPS_2_REQ-141,The user management system shall provide the capability to add and remove authorization roles,user_management,add_remove_roles.feature
+MDPS_2_REQ-142,The user management system shall provide the capability to add and remove users from the MDPS,user_management,add_remove_users.feature
+MDPS_2_REQ-184,The workflow catalog shall provide error messages upon invalid requests,workflow_catalog,errors.feature
+MDPS_2_REQ-21,"The MDPS shall provide a shared workflow catalog for the registration, search and access to processing workflows (Workflow Catalog)",workflow_catalog,managed_service.feature
+MDPS_2_REQ-22,The workflow catalog shall allow the publishing of data processing workflows,workflow_catalog,publication.feature
+MDPS_2_REQ-28,The workflow catalog shall provide the capability to restrict access to workflows,workflow_catalog,access_restrictions.feature
