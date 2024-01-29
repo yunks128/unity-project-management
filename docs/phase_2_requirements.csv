@@ -2,9 +2,9 @@ Requirements Prototyped,Requirement Text,System Test Component,Feature
 MDPS_2_REQ-87,The transformation and analysis system shall provide timeseries calculations on transformation requests,analysis,time_series.feature
 MDPS_2_REQ-163,The APGS shall provide a mechanism to validate APGS inputs prior to build,apgs,validate_inputs.feature
 MDPS_2_REQ-164,The APGS shall generate application packages upon user request.,apgs,packaging.feature
-MDPS_2_REQ-165,The APGS shall provide status of application generation processes,apgs,status.feature
-MDPS_2_REQ-80,The APGS shall store application package artifacts required for execution,apgs,store_artifacts.feature
-MDPS_2_REQ-81,The APGS shall publish application packages to the application catalog,apgs,publish.feature
+MDPS_2_REQ-165,The APGS shall provide status of application generation processes,apgs,packaging.feature
+MDPS_2_REQ-80,The APGS shall store application package artifacts required for execution,apgs,packaging.feature
+MDPS_2_REQ-81,The APGS shall publish application packages to the application catalog,apgs,packaging.feature
 MDPS_2_REQ-67,The application catalog shall allow access to application packages from the centralized catalog,application_catalog,application_access.feature
 MDPS_2_REQ-70,The application catalog shall provide the capability to publish application packages conforming to the published OGC Best Practice for Earth Observation Application Package,application_catalog,OGC_validations.feature
 MDPS_2_REQ-41,The archive system shall provide a common mechanism for delivering data to DAACs,archive_system,daac_interface.feature
