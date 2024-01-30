@@ -8,7 +8,7 @@ MDPS_2_REQ-81,The APGS shall publish application packages to the application cat
 MDPS_2_REQ-67,The application catalog shall allow access to application packages from the centralized catalog,application_catalog,application_access.feature
 MDPS_2_REQ-70,The application catalog shall provide the capability to publish application packages conforming to the published OGC Best Practice for Earth Observation Application Package,application_catalog,OGC_validations.feature
 MDPS_2_REQ-41,The archive system shall provide a common mechanism for delivering data to DAACs,archive_system,daac_interface.feature
-MDPS_2_REQ-43,The archive system shall monitor the archive process for success and errors,archive_system,monitoring.feature
+MDPS_2_REQ-43,The archive system shall monitor the archive process for success and errors,archive_system,daac_interface.feature
 MDPS_2_REQ-44,The archive system shall provide reporting on product archive processes,archive_system,reporting.feature
 MDPS_2_REQ-129,The MDPS shall monitor and report on service availability,availability,managed_monitoring.feature
 MDPS_2_REQ-131,The MDPS shared system shall have a published Service Level Agreement,availability,multitenant_availability_sla.feature
