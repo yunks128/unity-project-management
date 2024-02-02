@@ -5,15 +5,16 @@ Unity is made of managed services- managed in this context means that the deploy
 ### Managed Services all have the following capabilities
 * Current and Previous major versions of services shall be supported
 * Continuall integrate and be tested in the Unity environment 
-
+* Report or can be polled for health metrics
+* Automatic Validation scripts upon deployment
+    
 ### Venue Managed Services have the following additional capabilities:
 * Deployable through the management console
 * Upgradeable through the management console
 * Rollback (where allowed) for managed services is available through the management console
 * Desctruction of managed services is available through the management console
 * Customizable resources (e.g. cpu, ram, cluster sizes)
-* Report or can be polled for health metrics 
-* Automatic Validation scripts upon deployment
+
 
 #### List of Managed Venue Services
 - Interactive Developer Environments (IDE)
