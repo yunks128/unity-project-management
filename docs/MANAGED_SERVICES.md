@@ -15,9 +15,21 @@ Unity is made of managed services- managed in this context means that the deploy
 * Report or can be polled for health metrics 
 * Automatic Validation scripts upon deployment
 
+#### List of Managed Venue Services
+- Interactive Developer Environments (IDE)
+- Science Processing Systems
+- Mission Stores
+- Analysis Clusters 
+
 ### Shared Services
 * Breaking API changes will be retired after some period to allow for projects to migrate to new endpoints/functionalty on their own schedule
 * A defined SLA
+
+#### List of multi-tenant Services
+- Algorithm and Workflow Catalogs
+- Data Catalog
+- *Provenance (TBD)*
+
 
 ### Management Console
 * User interface for deployment, monitoring, upgrading, and destruction of venue services
