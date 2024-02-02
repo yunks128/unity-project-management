@@ -28,16 +28,16 @@ MDPS_2_REQ-35,The data catalog shall provide the capability to discover collecti
 MDPS_2_REQ-59,The IDE shall provide development environments access to MDPS data,ide,data_access.feature
 MDPS_2_REQ-63,The IDE shall allow sharing of code and data between IDE users,ide,data_sharing.feature
 MDPS_2_REQ-76,IDE customization shall include the inclusion of project defined libraries and resources to IDEs,ide,libraries.feature
-MDPS_2_REQ-110,MDPS managed services shall provide a common deployment mechanism,managed_services,common_deployment.feature
+MDPS_2_REQ-110,MDPS managed services shall provide a common deployment mechanism,managed_services,template_common_deployment.feature
 MDPS_2_REQ-111,MDPS managed services shall provide the means to continuously integrate and deploy MDPS software,managed_services,ci.feature
 MDPS_2_REQ-112,"The MDPS shall provide a mechanism for storing, updating, and retrieving sensitive software configuration",managed_services,configuration.feature
-MDPS_2_REQ-114,MDPS managed services shall provide a common upgrade mechanism,managed_services,common_upgrade.feature
-MDPS_2_REQ-115,MDPS managed services shall provide a common rollback mechanism,managed_services,common_rollback.feature
-MDPS_2_REQ-116,MMDPS managed services shall provide a common destroy mechanism,managed_services,common_destroy.feature
+MDPS_2_REQ-114,MDPS managed services shall provide a common upgrade mechanism,managed_services,template_common_upgrade.feature
+MDPS_2_REQ-115,MDPS managed services shall provide a common rollback mechanism,managed_services,template_common_rollback.feature
+MDPS_2_REQ-116,MMDPS managed services shall provide a common destroy mechanism,managed_services,template_common_destroy.feature
 MDPS_2_REQ-117,"MDPS managed services shall have a user interface for deployment, monitoring, upgrading, and destruction",managed_services,mgmt_ui.feature
 MDPS_2_REQ-118,MDPS managed services will support scheduling changes in project defined maintenance windows,managed_services,mgmt_scheduling.feature
-MDPS_2_REQ-158,MDPS managed services shall allow resource customization,managed_services,resource_customization.feature
-MDPS_2_REQ-159,MDPS managed services shall report health metrics,managed_services,managed_health.feature
+MDPS_2_REQ-158,MDPS managed services shall allow resource customization,managed_services,template_resource_customization.feature
+MDPS_2_REQ-159,MDPS managed services shall report health metrics,managed_services,template_managed_health.feature
 MDPS_2_REQ-171,The MDPS shall have a centralized mechanism for requesting managed service support,managed_services,support.feature
 MDPS_2_REQ-172,MDPS managed services shall notify users of available updates,managed_services,mgmt_update_availability.feature
 MDPS_2_REQ-173,MDPS managed services shall notify users of pending and in-progress deployments,managed_services,mgmt_notify_deployments.feature
@@ -45,7 +45,6 @@ MDPS_2_REQ-181,MDPS managed service deployment can be monitored for status and d
 MDPS_2_REQ-182,MDPS managed services shall be automatically validated upon deployment or rollback,managed_services,managed_deployment_validation.feature
 MDPS_2_REQ-196,MDPS managed services shall be capable of alerting users based on health metrics,managed_services,mgmt_health_alerts.feature
 MDPS_2_REQ-208,The MDPS  shall generate a manifest of deployment services,managed_services,mgmt_manifest.feature
-MDPS_2_REQ-166,The mission store shall be capable of notifying consumers of new data.,mission_store,notification.feature
 MDPS_2_REQ-55,The mission store shall allow whole file download of data products,mission_store,whole_file_download.feature
 MDPS_2_REQ-95,Project isolation shall include default user groups for A&A across all project venues,project_isolation,auth.feature
 MDPS_2_REQ-101,Project Venues shall allow for the deployment of managed services,project_venues,managed.feature

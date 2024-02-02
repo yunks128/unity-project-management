@@ -343,16 +343,16 @@ MDPS_2_REQ-109,MDPS_2_REQ-110,L3,MDPS managed services shall provide a common de
    
  
  
-  Deployments will be centered on widely available deployment technologies like terraform.",Test,"System Test, Integration Test",eso-prototype,managed_services,common_deployment.feature
-MDPS_2_REQ-109,MDPS_2_REQ-114,L3,MDPS managed services shall provide a common upgrade mechanism,Managed services can be updated by project venue administrators,Test,"System Test, Integration Test",,managed_services,common_upgrade.feature
+  Deployments will be centered on widely available deployment technologies like terraform.",Test,"System Test, Integration Test",eso-prototype,managed_services,template_common_deployment.feature
+MDPS_2_REQ-109,MDPS_2_REQ-114,L3,MDPS managed services shall provide a common upgrade mechanism,Managed services can be updated by project venue administrators,Test,"System Test, Integration Test",,managed_services,template_common_upgrade.feature
 MDPS_2_REQ-109,MDPS_2_REQ-115,L3,"MDPS managed services shall provide a common rollback mechanism, except where prohibited by other requirements and policies","Roll back when an error is encountered during deployment should be standardized. This means an error in deployment can be detected, and the previous state can be made available to the users. Examples of implementation of this would be blue/green deployments.
  
  
    
  
  
-  Exceptions to this capability would include not allowing rollbacks due to security issues, or other NASA policies.",Test,"System Test, Integration Test",eso-prototype,managed_services,common_rollback.feature
-MDPS_2_REQ-109,MDPS_2_REQ-116,L3,MMDPS managed services shall provide a common destroy mechanism,Managed services can be destroyed by project venue administrators,Test,"System Test, Integration Test",,managed_services,common_destroy.feature
+  Exceptions to this capability would include not allowing rollbacks due to security issues, or other NASA policies.",Test,"System Test, Integration Test",eso-prototype,managed_services,template_common_rollback.feature
+MDPS_2_REQ-109,MDPS_2_REQ-116,L3,MMDPS managed services shall provide a common destroy mechanism,Managed services can be destroyed by project venue administrators,Test,"System Test, Integration Test",,managed_services,template_common_destroy.feature
 MDPS_2_REQ-109,MDPS_2_REQ-117,L3,"MDPS managed services shall have a user interface for deployment, monitoring, upgrading, and destruction",A dashboard for UI based management,Test,"System Test, UAT",eso-prototype,managed_services,mgmt_ui.feature
 MDPS_2_REQ-109,MDPS_2_REQ-118,L3,MDPS managed services will support scheduling changes in project defined maintenance windows,Ability to schedule _when_ management activities can occur,Test,"System Test, UAT",,managed_services,mgmt_scheduling.feature
 MDPS_2_REQ-109,MDPS_2_REQ-119,L3,"MDPS managed services shall provide a common mechanism for responding to security prompts (patches, AMI updates, vulnerabilities in libraries)","Maintenance requirements for time-critical activities.
@@ -362,8 +362,8 @@ MDPS_2_REQ-109,MDPS_2_REQ-119,L3,"MDPS managed services shall provide a common m
  
  
   SPLs requiring patching of systems shall be made available to users within some pre-determined amount of time. these can be 7 days or 30 day turn around times.",Demonstration,,,managed_services,
-MDPS_2_REQ-109,MDPS_2_REQ-158,L3,MDPS managed services shall allow resource customization,"Managed services need to be able to support the project use cases. This could be high CPU or Memory usage, specific storage needs, network requirements. These should be configurable where applicable (e.g. cloud resource customization).",Test,"System Test, UAT","eso, eso-prototype",managed_services,resource_customization.feature
-MDPS_2_REQ-109,MDPS_2_REQ-159,L3,MDPS managed services shall report health metrics,"Managed services need to report on health metrics- these can be customized for each project, but should include things like uptime, request latency, resource usage, etc.",Test,System Test,"eso, eso-prototype",managed_services,managed_health.feature
+MDPS_2_REQ-109,MDPS_2_REQ-158,L3,MDPS managed services shall allow resource customization,"Managed services need to be able to support the project use cases. This could be high CPU or Memory usage, specific storage needs, network requirements. These should be configurable where applicable (e.g. cloud resource customization).",Test,"System Test, UAT","eso, eso-prototype",managed_services,template_resource_customization.feature
+MDPS_2_REQ-109,MDPS_2_REQ-159,L3,MDPS managed services shall report health metrics,"Managed services need to report on health metrics- these can be customized for each project, but should include things like uptime, request latency, resource usage, etc.",Test,System Test,"eso, eso-prototype",managed_services,template_managed_health.feature
 MDPS_2_REQ-109,MDPS_2_REQ-172,L3,MDPS managed services shall notify users of available updates,A way of identifing manages services with updates available for supported versions.,Test,System Test,"MCP, eso",managed_services,mgmt_update_availability.feature
 MDPS_2_REQ-109,MDPS_2_REQ-173,L3,MDPS managed services shall notify users of pending and in-progress deployments,Users are alerted to pending upgrades in services through some mechanisms,Test,System Test,eso,managed_services,mgmt_notify_deployments.feature
 MDPS_2_REQ-109,MDPS_2_REQ-181,L3,MDPS managed service deployment can be monitored for status and deployment issues.,Ability to monitor a deployment of a managed service,Test,"System Test, UAT",eso,managed_services,mgmt_deployment_status.feature
