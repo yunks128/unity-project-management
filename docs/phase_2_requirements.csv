@@ -19,9 +19,12 @@ MDPS_2_REQ-104,The cost reporting system shall track and report system costs bas
 MDPS_2_REQ-161,The cost reporting system shall be generating and capable delivering reports at a specified interval,cost_reporting,reporting.feature
 MDPS_2_REQ-185,The cost reporting system can alert users when cost thresholds are exceeded,cost_reporting,alert.feature
 MDPS_2_REQ-29,The MDPS shall provide a shared data catalog for cataloging and search of MDPS data products based on product metadata. (Data Catalog),data_catalog,managed_service.feature
-MDPS_2_REQ-32,The data catalog shall allow notifications of newly cataloged data products,data_catalog,notifications.feature
-MDPS_2_REQ-34,The  data catalog shall allow search for data products on spatial and temporal metadata.,data_catalog,spatiotemporal_search.feature
+MDPS_2_REQ-34,The  data catalog shall allow search for data products on spatial and temporal metadata.,data_catalog,dapa.feature
 MDPS_2_REQ-36,The  data catalog  shall catalog products with required metadata as specified in <DATA-CATALOG-TBD>,data_catalog,ingest_with_required_metadata.feature
+MDPS_2_REQ-30,The data catalog shall allow search on cataloged products through a Data Access and Processing API (DAPA) interface,data_catalog,dapa.feature
+MDPS_2_REQ-31,The data catalog shall allow search for data products by parent collections,data_catalog,dapa.feature
+MDPS_2_REQ-33,The data catalog shall return search results in STAC (SpatioTemporal Asset Catalogs) format,data_catalog,stac.feature
+MDPS_2_REQ-35,The data catalog shall provide the capability to discover collections,data_catalog,dapa.feature
 MDPS_2_REQ-59,The IDE shall provide development environments access to MDPS data,ide,data_access.feature
 MDPS_2_REQ-63,The IDE shall allow sharing of code and data between IDE users,ide,data_sharing.feature
 MDPS_2_REQ-76,IDE customization shall include the inclusion of project defined libraries and resources to IDEs,ide,libraries.feature
