@@ -56,7 +56,7 @@ MDPS_2_REQ-162,The science processing platform shall provide the capability to p
 MDPS_2_REQ-167,The science processing platform shall provide the capability to execute workflows based on data availability,sps,availability.feature
 MDPS_2_REQ-174,The science processing platform shall provide aggregate workflow execution metrics,sps,aggregate_metrics.feature
 MDPS_2_REQ-176,The science processing platform shall provide detailed logs for workflow executions,sps,detailed_logs.feature
-MDPS_2_REQ-177,The science processing platform shall be capable of listing workflow executions,sps,execution_listings.feature
+MDPS_2_REQ-177,The science processing platform shall be capable of listing workflow executions,sps,wpst.feature
 MDPS_2_REQ-178,The science processing platform shall be capable of filtering workflow execution metrics by workflow metadata,sps,execution_listing_filter.feature
 MDPS_2_REQ-179,The science processing platform shall be capable of notifying users of workflow execution errors,sps,error_notification.feature
 MDPS_2_REQ-180,The science processing platform shall be capable of listing recent workflow execution notifications,sps,error_notification_listing.feature
