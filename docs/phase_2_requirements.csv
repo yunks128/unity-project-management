@@ -49,9 +49,6 @@ MDPS_2_REQ-55,The mission store shall allow whole file download of data products
 MDPS_2_REQ-95,Project isolation shall include default user groups for A&A across all project venues,project_isolation,auth.feature
 MDPS_2_REQ-101,Project Venues shall allow for the deployment of managed services,project_venues,managed.feature
 MDPS_2_REQ-160,Project Venue resources shall be requested through a centralized endpoint (Web Gateway),project_venues,web_gateway.feature
-MDPS_2_REQ-146,The provenance system shall maintain persistent identifiers for algorithms used in data production,provenance,algorithm_persistent_identifiers.feature
-MDPS_2_REQ-147,The provenance system shall maintain persistent identifiers for workflows  used in data production,provenance,workflow_persistent_identifiers.feature
-MDPS_2_REQ-153,"The provenance systems shall allow users to search by identifier, name, and relationship",provenance,search_provenance.feature
 MDPS_2_REQ-10,"The science processing platform shall provision, manage, and release resources required for workflow processing",sps,resources.feature
 MDPS_2_REQ-11,The science processing platform shall provide workflow and application package execution metrics,sps,metrics.feature
 MDPS_2_REQ-12,The science processing platform shall provide workflow error and status messages to end users,sps,information_propagation.feature
