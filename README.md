@@ -46,7 +46,6 @@ This repository contains largely tickets and small scripts useful for project ma
 Try the following actions:
 - See our issue tickets
 - View our [leaderboard](https://github.com/NASA-AMMOS/slim-leaderboard/blob/main/examples/slim-unity-leaderboard.md) showing statuses of [SLIM best practices](https://nasa-ammos.github.io/slim/) infusion
-- View zenhub reports [DEPRECATED]
 
 ## Changelog
 
