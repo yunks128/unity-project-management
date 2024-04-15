@@ -3,6 +3,8 @@ import requests
 
 org = "unity-sds"
 gh = "https://api.github.com/"
+ignore = ["unity-project-management"]
+
 
 # Token must have repo management capabilities
 ghtoken = os.environ.get('GITHUB_TOKEN', None)
@@ -28,6 +30,7 @@ def get_latest_release(repo):
 repository_list = open('repositories.txt')
 for repo in repository_list:
     repo = repo.strip()
-    repo_release, repo_tag, release_date  = get_latest_release(repo)
-    print(repo + ", " + repo_release+ ", " + repo_tag + ", " + release_date)
+    if repo not in ignore:
+      repo_release, repo_tag, release_date  = get_latest_release(repo)
+      print(repo + ", " + repo_release+ ", " + repo_tag + ", " + release_date)
 repository_list.close()
