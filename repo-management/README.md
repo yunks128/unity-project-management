@@ -1,4 +1,6 @@
-#Repo Management Scripts
+# Repo Management Scripts
+
+## Identifying Repositories
 
 Many ops across repos need a list of repositories to work from. To create a list, simply run the following command:
 
@@ -10,6 +12,15 @@ or using the gh app:
 
 ```
 gh repo list unity-sds -L 100 --json name --visibility public --no-archived | jq -r ".[].name"
+```
+
+
+## Executing Commands
+
+### latest releases
+
+```
+python latest-release.py > 1.0.0-prototype-manifest.csv
 ```
 
 
