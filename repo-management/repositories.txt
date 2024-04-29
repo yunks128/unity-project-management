@@ -62,3 +62,4 @@ sounder-sips-application
 unity-repo-template
 hysds_ui_with_auth
 unity-cs-sps-demo
+unity-cs-monitoring-lambda

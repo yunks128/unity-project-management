@@ -3,7 +3,7 @@ import requests
 
 org = "unity-sds"
 gh = "https://api.github.com/"
-ignore = ["unity-project-management"]
+ignore = ["unity-project-management", "issue-triage", "application-development-lifecycle", "unity-repo-template", "sounder-sips-application", "sounder-sips-chirp-workflows", "unity-sps-workflows", "unity-sps-prototype","unity-sps-register_job", "unity-sps-api", "unity-sps-prototype-fork", "unity-sps-on-demand-api","unity-cs-sps-demo", "unity-jobs-ui",  "ui-ux", "unity-on-demand-api", "unity-on-demand-cloudformation" ,"hysds_ui_with_auth"]
 
 
 # Token must have repo management capabilities
